@@ -38,7 +38,7 @@
     git
     micro
     nano
-
+    nerd-fonts.jetbrains-mono
     screen
     tree
     unzip
