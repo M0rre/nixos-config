@@ -7,210 +7,210 @@
 {
   # Create /etc/starship.toml for all users
   environment.etc."starship.toml".text = ''
-  "$schema" = 'https://starship.rs/config-schema.json'
+    "$schema" = 'https://starship.rs/config-schema.json'
 
-  [aws]
-  symbol = " "
+    [aws]
+    symbol = " "
 
-  [buf]
-  symbol = " "
+    [buf]
+    symbol = " "
 
-  [bun]
-  symbol = " "
+    [bun]
+    symbol = " "
 
-  [c]
-  symbol = " "
+    [c]
+    symbol = " "
 
-  [cpp]
-  symbol = " "
+    [cpp]
+    symbol = " "
 
-  [cmake]
-  symbol = " "
+    [cmake]
+    symbol = " "
 
-  [conda]
-  symbol = " "
+    [conda]
+    symbol = " "
 
-  [crystal]
-  symbol = " "
+    [crystal]
+    symbol = " "
 
-  [dart]
-  symbol = " "
+    [dart]
+    symbol = " "
 
-  [deno]
-  symbol = " "
+    [deno]
+    symbol = " "
 
-  [directory]
-  read_only = " 󰌾"
-  [docker_context]
-  symbol = " "
+    [directory]
+    read_only = " 󰌾"
+    [docker_context]
+    symbol = " "
 
-  [elixir]
-  symbol = " "
+    [elixir]
+    symbol = " "
 
-  [elm]
-  symbol = " "
+    [elm]
+    symbol = " "
 
-  [fennel]
-  symbol = " "
+    [fennel]
+    symbol = " "
 
-  [fortran]
-  symbol = " "
+    [fortran]
+    symbol = " "
 
-  [fossil_branch]
-  symbol = " "
+    [fossil_branch]
+    symbol = " "
 
-  [gcloud]
-  symbol = " "
+    [gcloud]
+    symbol = " "
 
-  [git_branch]
-  symbol = " "
+    [git_branch]
+    symbol = " "
 
-  [git_commit]
-  tag_symbol = '  '
+    [git_commit]
+    tag_symbol = '  '
 
-  [golang]
-  symbol = " "
+    [golang]
+    symbol = " "
 
-  [gradle]
-  symbol = " "
+    [gradle]
+    symbol = " "
 
-  [guix_shell]
-  symbol = " "
+    [guix_shell]
+    symbol = " "
 
-  [haskell]
-  symbol = " "
+    [haskell]
+    symbol = " "
 
-  [haxe]
-  symbol = " "
+    [haxe]
+    symbol = " "
 
-  [hg_branch]
-  symbol = " "
+    [hg_branch]
+    symbol = " "
 
-  [hostname]
-  ssh_symbol = " "
+    [hostname]
+    ssh_symbol = " "
 
-  [java]
-  symbol = " "
+    [java]
+    symbol = " "
 
-  [julia]
-  symbol = " "
+    [julia]
+    symbol = " "
 
-  [kotlin]
-  symbol = " "
+    [kotlin]
+    symbol = " "
 
-  [lua]
-  symbol = " "
+    [lua]
+    symbol = " "
 
-  [memory_usage]
-  symbol = "󰍛 "
+    [memory_usage]
+    symbol = "󰍛 "
 
-  [meson]
-  symbol = "󰔷 "
+    [meson]
+    symbol = "󰔷 "
 
-  [nim]
-  symbol = "󰆥 "
+    [nim]
+    symbol = "󰆥 "
 
-  [nix_shell]
-  symbol = " "
+    [nix_shell]
+    symbol = " "
 
-  [nodejs]
-  symbol = " "
+    [nodejs]
+    symbol = " "
 
-  [ocaml]
-  symbol = " "
+    [ocaml]
+    symbol = " "
 
-  [os.symbols]
-  Alpaquita = " "
-  Alpine = " "
-  AlmaLinux = " "
-  Amazon = " "
-  Android = " "
-  AOSC = " "
-  Arch = " "
-  Artix = " "
-  CachyOS = " "
-  CentOS = " "
-  Debian = " "
-  DragonFly = " "
-  Elementary = " "
-  Emscripten = " "
-  EndeavourOS = " "
-  Fedora = " "
-  FreeBSD = " "
-  Garuda = "󰛓 "
-  Gentoo = " "
-  HardenedBSD = "󰞌 "
-  Illumos = "󰈸 "
-  Ios = "󰀷 "
-  Kali = " "
-  Linux = " "
-  Mabox = " "
-  Macos = " "
-  Manjaro = " "
-  Mariner = " "
-  MidnightBSD = " "
-  Mint = " "
-  NetBSD = " "
-  NixOS = " "
-  Nobara = " "
-  OpenBSD = "󰈺 "
-  openSUSE = " "
-  OracleLinux = "󰌷 "
-  Pop = " "
-  Raspbian = " "
-  Redhat = " "
-  RedHatEnterprise = " "
-  RockyLinux = " "
-  Redox = "󰀘 "
-  Solus = "󰠳 "
-  SUSE = " "
-  Ubuntu = " "
-  Unknown = " "
-  Void = " "
-  Windows = "󰍲 "
-  Zorin = " "
+    [os.symbols]
+    Alpaquita = " "
+    Alpine = " "
+    AlmaLinux = " "
+    Amazon = " "
+    Android = " "
+    AOSC = " "
+    Arch = " "
+    Artix = " "
+    CachyOS = " "
+    CentOS = " "
+    Debian = " "
+    DragonFly = " "
+    Elementary = " "
+    Emscripten = " "
+    EndeavourOS = " "
+    Fedora = " "
+    FreeBSD = " "
+    Garuda = "󰛓 "
+    Gentoo = " "
+    HardenedBSD = "󰞌 "
+    Illumos = "󰈸 "
+    Ios = "󰀷 "
+    Kali = " "
+    Linux = " "
+    Mabox = " "
+    Macos = " "
+    Manjaro = " "
+    Mariner = " "
+    MidnightBSD = " "
+    Mint = " "
+    NetBSD = " "
+    NixOS = " "
+    Nobara = " "
+    OpenBSD = "󰈺 "
+    openSUSE = " "
+    OracleLinux = "󰌷 "
+    Pop = " "
+    Raspbian = " "
+    Redhat = " "
+    RedHatEnterprise = " "
+    RockyLinux = " "
+    Redox = "󰀘 "
+    Solus = "󰠳 "
+    SUSE = " "
+    Ubuntu = " "
+    Unknown = " "
+    Void = " "
+    Windows = "󰍲 "
+    Zorin = " "
 
-  [package]
-  symbol = "󰏗 "
+    [package]
+    symbol = "󰏗 "
 
-  [perl]
-  symbol = " "
+    [perl]
+    symbol = " "
 
-  [php]
-  symbol = " "
+    [php]
+    symbol = " "
 
-  [pijul_channel]
-  symbol = " "
+    [pijul_channel]
+    symbol = " "
 
-  [pixi]
-  symbol = "󰏗 "
+    [pixi]
+    symbol = "󰏗 "
 
-  [python]
-  symbol = " "
+    [python]
+    symbol = " "
 
-  [rlang]
-  symbol = "󰟔 "
+    [rlang]
+    symbol = "󰟔 "
 
-  [ruby]
-  symbol = " "
+    [ruby]
+    symbol = " "
 
-  [rust]
-  symbol = "󱘗 "
+    [rust]
+    symbol = "󱘗 "
 
-  [scala]
-  symbol = " "
+    [scala]
+    symbol = " "
 
-  [status]
-  symbol = " "
+    [status]
+    symbol = " "
 
-  [swift]
-  symbol = " "
+    [swift]
+    symbol = " "
 
-  [xmake]
-  symbol = " "
+    [xmake]
+    symbol = " "
 
-  [zig]
-  symbol = " "
+    [zig]
+    symbol = " "
   '';
 
   programs.zsh = {
@@ -223,33 +223,33 @@
 
     # This goes in /etc/zshrc and applies to ALL users
     interactiveShellInit = ''
-      # Your shared config here
-      # This runs for every user's interactive shell
-      # Point all users to the shared starship config
-      export STARSHIP_CONFIG=/etc/starship.toml
+            # Your shared config here
+            # This runs for every user's interactive shell
+            # Point all users to the shared starship config
+            export STARSHIP_CONFIG=/etc/starship.toml
 
 
-# ===================
+      # ===================
 
-cat << "EOF"
+      cat << "EOF"
 
-⢀⡴⠑⡄⠀⠀⠀⠀⠀⠀⠀⣀⣀⣤⣤⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠸⡇⠀⠿⡀⠀⠀⠀⣀⡴⢿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠑⢄⣠⠾⠁⣀⣄⡈⠙⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⢀⡀⠁⠀⠀⠈⠙⠛⠂⠈⣿⣿⣿⣿⣿⠿⡿⢿⣆⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⢀⡾⣁⣀⠀⠴⠂⠙⣗⡀⠀⢻⣿⣿⠭⢤⣴⣦⣤⣹⠀⠀⠀⢀⢴⣶⣆
-⠀⠀⢀⣾⣿⣿⣿⣷⣮⣽⣾⣿⣥⣴⣿⣿⡿⢂⠔⢚⡿⢿⣿⣦⣴⣾⠁⠸⣼⡿
-⠀⢀⡞⠁⠙⠻⠿⠟⠉⠀⠛⢹⣿⣿⣿⣿⣿⣌⢤⣼⣿⣾⣿⡟⠉⠀⠀⠀⠀⠀
-⠀⣾⣷⣶⠇⠀⠀⣤⣄⣀⡀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀
-⠀⠉⠈⠉⠀⠀⢦⡈⢻⣿⣿⣿⣶⣶⣶⣶⣤⣽⡹⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠉⠲⣽⡻⢿⣿⣿⣿⣿⣿⣿⣷⣜⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣷⣶⣮⣭⣽⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⣀⣀⣈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠻⠿⠿⠿⠿⠛⠉
+      ⢀⡴⠑⡄⠀⠀⠀⠀⠀⠀⠀⣀⣀⣤⣤⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+      ⠸⡇⠀⠿⡀⠀⠀⠀⣀⡴⢿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+      ⠀⠀⠀⠀⠑⢄⣠⠾⠁⣀⣄⡈⠙⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀
+      ⠀⠀⠀⠀⢀⡀⠁⠀⠀⠈⠙⠛⠂⠈⣿⣿⣿⣿⣿⠿⡿⢿⣆⠀⠀⠀⠀⠀⠀⠀
+      ⠀⠀⠀⢀⡾⣁⣀⠀⠴⠂⠙⣗⡀⠀⢻⣿⣿⠭⢤⣴⣦⣤⣹⠀⠀⠀⢀⢴⣶⣆
+      ⠀⠀⢀⣾⣿⣿⣿⣷⣮⣽⣾⣿⣥⣴⣿⣿⡿⢂⠔⢚⡿⢿⣿⣦⣴⣾⠁⠸⣼⡿
+      ⠀⢀⡞⠁⠙⠻⠿⠟⠉⠀⠛⢹⣿⣿⣿⣿⣿⣌⢤⣼⣿⣾⣿⡟⠉⠀⠀⠀⠀⠀
+      ⠀⣾⣷⣶⠇⠀⠀⣤⣄⣀⡀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀
+      ⠀⠉⠈⠉⠀⠀⢦⡈⢻⣿⣿⣿⣶⣶⣶⣶⣤⣽⡹⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀
+      ⠀⠀⠀⠀⠀⠀⠀⠉⠲⣽⡻⢿⣿⣿⣿⣿⣿⣿⣷⣜⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀
+      ⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣷⣶⣮⣭⣽⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀
+      ⠀⠀⠀⠀⠀⠀⣀⣀⣈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀
+      ⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀
+      ⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀
+      ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠻⠿⠿⠿⠿⠛⠉
 
-EOF
+      EOF
     '';
 
     # Or use shellAliases for common aliases

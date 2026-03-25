@@ -38,7 +38,7 @@
     git
     micro
     nano
-  
+
     screen
     tree
     unzip
