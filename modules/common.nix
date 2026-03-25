@@ -37,7 +37,7 @@
     git
     micro
     nano
-    nixpkgs-fmt
+      nixpkgs-fmt
     screen
     tree
     unzip
