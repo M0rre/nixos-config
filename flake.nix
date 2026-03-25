@@ -6,10 +6,10 @@
   };
 
   outputs = { self, nixpkgs, ... }: {
-    nixosConfigurations.macks = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.mainserver = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
-        ./hosts/macks/configuration.nix
+        ./hosts/mainserver/configuration.nix
       ];
     };
   };
