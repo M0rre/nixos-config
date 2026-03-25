@@ -67,7 +67,7 @@
     (python3.withPackages (python-pkgs: [
       python-pkgs.requests
     ]))
- + ];
+  ];
 
   # Firewall
   networking.firewall.allowedTCPPorts = [ 25565 25575 25566 8100 80 443 ];
