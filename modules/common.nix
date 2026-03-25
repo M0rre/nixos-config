@@ -1,7 +1,7 @@
 { config, lib, pkgs, ... }:
 
 {
-  imports = [ ./cli.nix ];
+  imports = [ ./cli.nix ./scripts.nix ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
