@@ -255,7 +255,7 @@
     # Or use shellAliases for common aliases
     shellAliases = {
       ll = "ls -la";
-      nixupdate = "git -C ~/nixos-config pull && sudo nixos-rebuild switch --flake '#mainserver' && bash /etc/formatNixFilesPushToGit.sh";
+      nixupdate = "git -C ~/nixos-config pull && sudo nixos-rebuild switch --flake '/home/max/nixos-config#mainserver' && bash /etc/formatNixFilesPushToGit.sh";
       c = "clear";
       aacm = "git add .; git commit -m";
     };
