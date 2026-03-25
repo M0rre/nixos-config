@@ -1,3 +1,4 @@
+# configuration.nix mainserver
 { config, lib, pkgs, ... }:
 
 {

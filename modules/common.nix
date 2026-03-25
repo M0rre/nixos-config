@@ -1,3 +1,4 @@
+# common.nix
 { config, lib, pkgs, ... }:
 
 {
@@ -37,7 +38,7 @@
     git
     micro
     nano
-      nixpkgs-fmt
+  
     screen
     tree
     unzip
