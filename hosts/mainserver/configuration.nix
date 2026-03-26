@@ -53,9 +53,6 @@
       locations."/" = {
         proxyPass = "http://127.0.0.1:8100";
         proxyWebsockets = true;
-        extraConfig = ''
-          add_header X-Frame-Options SAMEORIGIN always;
-        '';
       };
     };
   };
