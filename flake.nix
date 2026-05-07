@@ -8,12 +8,12 @@
   outputs = { self, nixpkgs, ... }: {
     nixosConfigurations.mainserver = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
-      modules = [ 
+      modules = [
 
         # CHANGE DEPENDING ON MACHINE
         ./hosts/mainserver/configuration.nix
         # CHANGE DEPENDING ON MACHINE
-        
+
       ];
     };
   };
