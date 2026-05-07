@@ -63,6 +63,7 @@
     w3m
     elinks
     jdk
+    jdk25
     nginx
     (python3.withPackages (python-pkgs: [
       python-pkgs.requests
