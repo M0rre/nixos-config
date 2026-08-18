@@ -30,7 +30,6 @@ services.openssh = {
     AllowUsers = [ "max" ];  # explicit allowlist beats blocklisting
   };
 };
-
   programs.nano = {
     enable = true;
     nanorc = ''
