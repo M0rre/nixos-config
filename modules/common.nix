@@ -29,6 +29,8 @@ services.openssh = {
     PermitRootLogin = "no";
     AllowUsers = [ "youruser" ];  # explicit allowlist beats blocklisting
   };
+};
+
   programs.nano = {
     enable = true;
     nanorc = ''
@@ -36,7 +38,7 @@ services.openssh = {
       set tabstospaces
     '';
   };
-};
+
   environment.systemPackages = with pkgs; [
     cmatrix
     file
