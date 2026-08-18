@@ -3,7 +3,7 @@
 {
   environment.systemPackages = with pkgs; [ nixpkgs-fmt ];
 
-  # Create the script as a system-wide command
+  # Create the script as a system-wide command ==============================
   environment.etc."formatNixFilesPushToGit.sh" = {
     mode = "0755";
     text = ''
@@ -26,4 +26,5 @@
       fi
     '';
   };
+  # =========================================================================
 }
