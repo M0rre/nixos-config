@@ -36,7 +36,7 @@ services.openssh = {
       set tabstospaces
     '';
   };
-
+};
   environment.systemPackages = with pkgs; [
     cmatrix
     file
