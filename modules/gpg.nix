@@ -59,10 +59,7 @@ in {
     };
 
     # Make sure gpg-agent socket is set as SSH_AUTH_SOCK when SSH support is on
-    programs.bash.sessionVariables = mkIf cfg.sshSupport {
-      SSH_AUTH_SOCK = "$(${pkgs.gnupg}/bin/gpgconf --list-dirs agent-ssh-socket)";
-    };
-    programs.zsh.sessionVariables = mkIf cfg.sshSupport {
+    environment.sessionVariables = mkIf cfg.sshSupport {
       SSH_AUTH_SOCK = "$(${pkgs.gnupg}/bin/gpgconf --list-dirs agent-ssh-socket)";
     };
   };
