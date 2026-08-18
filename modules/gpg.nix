@@ -4,7 +4,8 @@ with lib;
 
 let
   cfg = config.programs.gpg-custom;
-in {
+in
+{
   options.programs.gpg-custom = {
     enable = mkEnableOption "GPG with agent and pinentry";
 
@@ -15,7 +16,7 @@ in {
     };
 
     defaultCacheTtl = mkOption {
-      type = types.int;   
+      type = types.int;
       default = 600;
       description = "Seconds to cache passphrase in agent";
     };

@@ -21,15 +21,15 @@
   services.xserver.enable = true;
   services.xserver.xkb.layout = "se";
 
-services.openssh = {
-  enable = true;
-  settings = {
-    PasswordAuthentication = false;
-    KbdInteractiveAuthentication = false;
-    PermitRootLogin = "no";
-    AllowUsers = [ "youruser" ];  # explicit allowlist beats blocklisting
+  services.openssh = {
+    enable = true;
+    settings = {
+      PasswordAuthentication = false;
+      KbdInteractiveAuthentication = false;
+      PermitRootLogin = "no";
+      AllowUsers = [ "youruser" ]; # explicit allowlist beats blocklisting
+    };
   };
-};
 
   programs.nano = {
     enable = true;
