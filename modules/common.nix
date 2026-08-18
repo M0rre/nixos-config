@@ -27,7 +27,7 @@ services.openssh = {
     PasswordAuthentication = false;
     KbdInteractiveAuthentication = false;
     PermitRootLogin = "no";
-    AllowUsers = [ "youruser" ];  # explicit allowlist beats blocklisting
+    AllowUsers = [ "max" ];  # explicit allowlist beats blocklisting
   };
 };
 
