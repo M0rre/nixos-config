@@ -40,25 +40,12 @@ in {
   };
 
   config = mkIf cfg.enable {
-    programs.gpg = {
-      enable = true;
-      settings = {
-        keyserver = "hkps://keyserver.ubuntu.com";
-        keyserver-options = "auto-key-retrieve";
-        use-agent = true;
-      };
-    };
-
-    services.gpg-agent = {
+    programs.gnupg.agent = {
       enable = true;
       pinentryPackage = cfg.pinentryPackage;
-      defaultCacheTtl = cfg.defaultCacheTtl;
-      maxCacheTtl = cfg.maxCacheTtl;
-      enableSshSupport = cfg.sshSupport;
-      extraConfig = cfg.extraConfig;
+      enableSSHSupport = cfg.sshSupport;
     };
 
-    # Make sure gpg-agent socket is set as SSH_AUTH_SOCK when SSH support is on
     environment.sessionVariables = mkIf cfg.sshSupport {
       SSH_AUTH_SOCK = "$(${pkgs.gnupg}/bin/gpgconf --list-dirs agent-ssh-socket)";
     };

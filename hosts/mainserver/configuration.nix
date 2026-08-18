@@ -5,8 +5,7 @@
   imports = [
     ./hardware-configuration.nix
     ../../modules/common.nix
-    ../../modules/gpg.nix
-  ];
+    ];
 
   boot.loader.grub.device = "/dev/nvme0n1";
 
