@@ -73,5 +73,5 @@
   networking.firewall.allowedTCPPorts = [ 25565 25575 25566 8100 80 443 ];
   networking.firewall.allowedUDPPorts = [ 24454 ];
 
-  system.stateVersion = "25.11";
+  system.stateVersion = "26.05";
 }
