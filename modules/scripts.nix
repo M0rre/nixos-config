@@ -1,3 +1,4 @@
+# scripts.nix
 { config, lib, pkgs, ... }:
 
 {
