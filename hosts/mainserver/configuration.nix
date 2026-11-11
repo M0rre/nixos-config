@@ -9,7 +9,7 @@
 
   boot.loader.grub.device = "/dev/nvme0n1";
 
-  networking.hostName = "macks";
+  networking.hostName = "mainserver";
 
   # Users
   users.users.max = {
